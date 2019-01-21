@@ -8,7 +8,7 @@ Best sutable for Home Automation, IOT. Could be used as core board for radio con
 
 ## Specification: ##
  - Dimensions 17mm x 17mm
- - Sleep current consumption 9 - 12 uA
+ - Sleep current consumption 7-9 uA or up to 3-4 uA with soldered(shortened) LDO jumper
  - Dualoptiboot bootloader. Implements over the air (OTA) firmware update ability
  - RFM69-CW (low power consumption version) 915, 868 or 433 MHz Radio transceiver
  - Supply voltage  3.5-6.5 Volts
@@ -20,6 +20,7 @@ Best sutable for Home Automation, IOT. Could be used as core board for radio con
 Arduino Pins|	Description
 ------------|--------------
 A4, A5 |	Available ARDUINO analog GPIO / DIGITAL GPIO
+D10 |	Connected to RFM69 CS 
 ANT |	RFM69 antenna
 Vcc | Unregulated power up to 6.5 Volts
 Gnd | Ground
